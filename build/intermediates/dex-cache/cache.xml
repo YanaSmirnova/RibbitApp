@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\Parse-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="077b21d82e098a5d95e46b1868c664a23ada163a">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\Parse-1.3.9-8d3805a76d6b9174b2407bdbe4b8b80663122f24.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e3d7cd130215c1bc210c0ce4d1e85f496c56303a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\commons-io-2.4-6070c844836ba441688d9f5a4dc0b7148b475414.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\picasso-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\picasso-2.1.1-da7f51bffecac93e648a3c9599a5f8148256d281.jar" />
+    </item>
+
+</items>
