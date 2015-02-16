@@ -20,10 +20,11 @@
         android:id="@+id/usernameField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:ems="10"
-        android:hint="@string/username_hint" >
+        android:hint="@string/username_hint"
+        android:layout_below="@+id/subtitle"
+        android:layout_alignLeft="@+id/backgroundImage"
+        android:layout_alignStart="@+id/backgroundImage">
 
         <requestFocus />
     </EditText>
@@ -32,27 +33,52 @@
         android:id="@+id/passwordField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/usernameField"
-        android:layout_below="@+id/usernameField"
         android:ems="10"
         android:hint="@string/password_hint"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_below="@+id/usernameField"
+        android:layout_alignLeft="@+id/backgroundImage"
+        android:layout_alignStart="@+id/backgroundImage"/>
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/passwordField"
-        android:layout_below="@+id/passwordField"
-        android:text="@string/login_button_label" />
+        android:text="@string/login_button_label"
+        android:layout_alignParentCenter="true"
+        android:layout_below="@+id/passwordField"/>
 
     <TextView
         android:id="@+id/signUpText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/sign_up_text"
+        android:textColor="@android:color/white"
         android:layout_below="@+id/loginButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="69dp"
-        android:text="@string/sign_up_text" />
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="60sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/subtitle"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
