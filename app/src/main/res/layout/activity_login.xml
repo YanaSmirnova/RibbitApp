@@ -42,6 +42,7 @@
     <Button
         android:id="@+id/loginButton"
         android:text="@string/login_button_label"
+        android:layout_below="@+id/editTextLayout"
         style="@style/AuthButton"/>
 
     <TextView
