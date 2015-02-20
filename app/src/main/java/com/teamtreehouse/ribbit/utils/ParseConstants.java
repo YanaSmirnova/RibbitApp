@@ -1,4 +1,4 @@
-package com.teamtreehouse.ribbit;
+package com.teamtreehouse.ribbit.utils;
 
 public final class ParseConstants {
 	// Class name

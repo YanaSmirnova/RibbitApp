@@ -1,4 +1,4 @@
-package com.teamtreehouse.ribbit;
+package com.teamtreehouse.ribbit.adapters;
 
 import java.util.Locale;
 
@@ -6,6 +6,10 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.teamtreehouse.ribbit.R;
+import com.teamtreehouse.ribbit.ui.FriendsFragment;
+import com.teamtreehouse.ribbit.ui.InboxFragment;
 
 /**
  * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

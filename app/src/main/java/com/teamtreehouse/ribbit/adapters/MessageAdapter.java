@@ -1,4 +1,4 @@
-package com.teamtreehouse.ribbit;
+package com.teamtreehouse.ribbit.adapters;
 
 import java.util.List;
 
@@ -11,6 +11,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseObject;
+import com.teamtreehouse.ribbit.utils.ParseConstants;
+import com.teamtreehouse.ribbit.R;
 
 public class MessageAdapter extends ArrayAdapter<ParseObject> {
 	
