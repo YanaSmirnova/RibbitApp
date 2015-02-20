@@ -21,7 +21,11 @@ public final class R {
         public static final int light_purple_background=0x7f050004;
         public static final int light_purple_button=0x7f050005;
         public static final int pressed_purple_button=0x7f050006;
-        public static final int text_color=0x7f050007;
+        public static final int swipeRefresh1=0x7f050007;
+        public static final int swipeRefresh2=0x7f050008;
+        public static final int swipeRefresh3=0x7f050009;
+        public static final int swipeRefresh4=0x7f05000a;
+        public static final int text_color=0x7f05000b;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f060000;
