@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\Parse-1.3.9.jar"
+        jar="C:\Users\Asus\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="077b21d82e098a5d95e46b1868c664a23ada163a">
-        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\Parse-1.3.9-8d3805a76d6b9174b2407bdbe4b8b80663122f24.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-94bd9d83bdc688088d20fddfea9fadd2c4200ac1.jar" />
     </item>
     <item
         jar="C:\Users\Asus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
@@ -14,6 +14,13 @@
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e3d7cd130215c1bc210c0ce4d1e85f496c56303a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\Parse-1.8.2-46c5bd9bf6a28f86b68f74ec7bee1729231ea71c.jar" />
     </item>
     <item
         jar="C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\libs\commons-io-2.4.jar"

@@ -1,5 +1,6 @@
 C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\classes\debug
+C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-94bd9d83bdc688088d20fddfea9fadd2c4200ac1.jar
 C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\picasso-2.1.1-da7f51bffecac93e648a3c9599a5f8148256d281.jar
 C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\commons-io-2.4-6070c844836ba441688d9f5a4dc0b7148b475414.jar
-C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\Parse-1.3.9-8d3805a76d6b9174b2407bdbe4b8b80663122f24.jar
 C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e3d7cd130215c1bc210c0ce4d1e85f496c56303a.jar
+C:\Users\Asus\AndroidStudioProjects\RibbitDesign\app\build\intermediates\pre-dexed\debug\Parse-1.8.2-46c5bd9bf6a28f86b68f74ec7bee1729231ea71c.jar
