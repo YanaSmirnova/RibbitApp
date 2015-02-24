@@ -16,6 +16,8 @@ public class RibbitApplication extends Application {
         Parse.initialize(this,
                 "EiK2zlnCPYFlDQjRPDd8Zr6vyg3YYih8W90emAg3",
                 "jZg8ziWROu6CydqOzFBbWjpkwyMb0nWEx2MVVGDg");
+
+        ParseInstallation.getCurrentInstallation().saveInBackground();
 	}
 
     public static void updateParseInstallation(ParseUser user) {
