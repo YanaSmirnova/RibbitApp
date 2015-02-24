@@ -172,10 +172,16 @@ public class MainActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        // added as attempt to fix crashes on device when trying to send photo
+        // Check if there is a saved state to restore
+        if (savedInstanceState != null) {
+            // Restore the media uri so we can pass it to RecipientsFragment
+            mMediaUri = savedInstanceState.getParcelable("mediaUri");
+        }
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		setContentView(R.layout.activity_main);
 		
-		ParseAnalytics.trackAppOpened(getIntent());
+		ParseAnalytics.trackAppOpenedInBackground(getIntent());
 		
 		ParseUser currentUser = ParseUser.getCurrentUser();
 		if (currentUser == null) {
@@ -344,4 +350,12 @@ public class MainActivity extends FragmentActivity implements
 	public void onTabReselected(ActionBar.Tab tab,
 			FragmentTransaction fragmentTransaction) {
 	}
+
+    // added as attempt to fix crashes on device when trying to send photo
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // Save the media uri in case we get destroyed in the background
+        outState.putParcelable("mediaUri", mMediaUri);
+    }
 }
