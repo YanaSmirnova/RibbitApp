@@ -5,7 +5,7 @@ import java.io.*;
 import java.security.*;
 
 /**
- * Created by Asus on 23.02.2015.
+ * Created by Yana on 23.02.2015.
  */
 
 public class MD5Util {
